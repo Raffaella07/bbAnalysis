@@ -14,7 +14,7 @@ import xgboost as xgb
 
 
 #load training sample
-indict=  np.load('reg_tuples_2.py.npy',allow_pickle=True) # load
+indict=  np.load('../data/reg_tuples.py.npy',allow_pickle=True) # load
 indict = np.array(indict)
 indict = indict.tolist()
 print(indict.keys())
